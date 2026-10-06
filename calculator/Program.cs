@@ -25,7 +25,7 @@ class Program
             }
             else if (op == "+" || op == "-" || op == "*")
             {
-                double a = ReadNumber("Первое число: ");
+                double a = ReadNumber("Первое число: ");//
                 double b = ReadNumber("Второе число: ");
 
                 double result = op switch
