@@ -21,7 +21,7 @@ class Program
                 if (int.TryParse(Console.ReadLine(), out int n) && n >= 0 && n <= 5000)
                     Console.WriteLine($"{n}! = {Factorial(n)}");
                 else
-                    Console.WriteLine("Нужно целое число от 0 до 5000.");
+                    Console.WriteLine("Нужно целое число от 0 до 5000.");//коментарий 
             }
             else if (op == "+" || op == "-" || op == "*")
             {
